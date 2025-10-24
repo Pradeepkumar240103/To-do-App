@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://react-todo-spring.vercel.app/")
 public class TaskController {
 
     private final TaskService service;
